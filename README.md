@@ -1,5 +1,5 @@
-## Social-media-sentimental-analysis
-# Project Objective
+# Social-media-sentimental-analysis
+## Project Objective
 In the digital realm, social media platforms stand as influential conduits for individuals to voice their opinions and sentiments. This project, titled Tweet Sentiment Analysis for Deep Learning, aims to harness the prowess of deep learning algorithms to comprehensively analyze and interpret the myriad of sentiments expressed across diverse social platforms. Employing cutting-edge natural language processing (NLP) techniques, this initiative aspires to furnish invaluable insights into prevailing public opinions, emotions, and emerging trends.
 
 Table of Contents
@@ -30,7 +30,7 @@ BERT Modeling
 BERT Training
 BERT Prediction
 
-# Setup and Prerequisites
+## Setup and Prerequisites
 Ensure the following libraries are installed:
 Python 3.x
 TensorFlow / PyTorch
@@ -45,7 +45,7 @@ Use the following command to install required libraries:
 # Copy code
 # pip install -r requirements.txt  
 
-# Data Preparation
+## Data Preparation
 1. Loading Dataset
 The dataset is loaded into a Pandas DataFrame for ease of manipulation.
 2. Check for Missing and Duplicate Values
@@ -53,7 +53,7 @@ Basic checks to ensure data integrity by removing null entries and duplicates.
 3. Preprocessing Text
 Cleaning text to remove noise (e.g., special characters, stop words, links) and standardizing for analysis.
 
-# Data Analysis
+## Data Analysis
 1. Sentiment Distribution
 Visualize the distribution of sentiments (positive, negative, neutral).
 2. Tweet Length Analysis
@@ -63,7 +63,7 @@ Convert text into numerical representations using methods like word embeddings o
 4. Tokenizing & Padding
 Prepare text data by converting words to tokens and standardizing input size.
 
-# Model Building
+## Model Building
 1. Bidirectional LSTM
 Constructed a Bidirectional LSTM model to capture contextual relationships in text.
 Evaluated model performance using accuracy, loss metrics, and confusion matrix.
@@ -73,12 +73,12 @@ Implemented BERT (Bidirectional Encoder Representations from Transformers) for s
 Processed data using BERT tokenization.
 Trained the model with separate data loaders for training, validation, and testing.
 
-# Results
+## Results
 Both models were evaluated on standard benchmarks, demonstrating their effectiveness in sentiment analysis. Metrics include:
 1. Accuracy
 2. Precision, Recall, F1 Score
 3. Confusion Matrix
 
-# Conclusion
+## Conclusion
 This project highlights the potential of deep learning and NLP in analyzing sentiments from social media. By integrating Bidirectional LSTM and BERT, the project delivers a robust framework for understanding public sentiment trends, offering significant value to various stakeholders.
 
