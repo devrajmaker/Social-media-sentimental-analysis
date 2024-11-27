@@ -41,9 +41,8 @@ Matplotlib / Seaborn
 Scikit-learn
 
 Use the following command to install required libraries:
-# bash
-# Copy code
-# pip install -r requirements.txt  
+## Copy code
+## pip install -r requirements.txt  
 
 ## Data Preparation
 1. Loading Dataset
